@@ -1,0 +1,2 @@
+# Preserve the inherited source and shader bytes across Windows/Linux checkouts.
+* -text

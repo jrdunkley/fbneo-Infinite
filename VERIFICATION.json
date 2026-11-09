@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "builds": {
+    "x86": {
+      "arch": "x86",
+      "executable": "build/x86/fbneo-Infinite.exe",
+      "sha256": "ed79219384da6f8de137a89a862b44f8791a52786443ec6e48eaaa56a27988e7",
+      "bytes": 55117312,
+      "tools": {
+        "make": "GNU Make 4.4.1",
+        "gcc": "gcc.EXE (GCC) 16.2.0",
+        "g++": "g++.EXE (GCC) 16.2.0",
+        "perl": "This is perl 5, version 42, subversion 3 (v5.42.3) built for x86_64-cygwin-thread-multi"
+      },
+      "imports": [
+        "ADVAPI32.dll",
+        "COMCTL32.dll",
+        "COMDLG32.DLL",
+        "GDI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "ole32.dll",
+        "SETUPAPI.dll",
+        "SHELL32.dll",
+        "USER32.dll",
+        "AVIFIL32.DLL",
+        "MSVFW32.DLL",
+        "WININET.DLL",
+        "WINMM.DLL"
+      ]
+    },
+    "x64": {
+      "arch": "x64",
+      "executable": "build/x64/fbneo-Infinite.exe",
+      "sha256": "a5695cbee3c2b950548000c69fd66f583a6f40a545417f2be6350bc536712d5c",
+      "bytes": 60767232,
+      "tools": {
+        "make": "GNU Make 4.4.1",
+        "gcc": "gcc.EXE (GCC) 16.2.0",
+        "g++": "g++.EXE (GCC) 16.2.0",
+        "perl": "This is perl 5, version 42, subversion 3 (v5.42.3) built for x86_64-cygwin-thread-multi"
+      },
+      "imports": [
+        "ADVAPI32.dll",
+        "COMCTL32.dll",
+        "comdlg32.dll",
+        "GDI32.dll",
+        "KERNEL32.dll",
+        "msvcrt.dll",
+        "ole32.dll",
+        "SETUPAPI.dll",
+        "SHELL32.dll",
+        "USER32.dll",
+        "AVIFIL32.dll",
+        "MSVFW32.dll",
+        "WININET.dll",
+        "WINMM.dll"
+      ]
+    }
+  },
+  "tests": {
+    "x86": {
+      "boot": {
+        "passed": true,
+        "evidence_sha256": "d6fde3f3b4b490b62a3fb9b51bc13fa3149609d8bc6bd89dbb03b53975b0b54a",
+        "cases": [
+          "default",
+          "explicit",
+          "no_shader",
+          "legacy",
+          "other_driver"
+        ],
+        "frames": 18360,
+        "default_timing_equals_explicit": true,
+        "shader_on_off_core_state_equal": true,
+        "save_load_continuation_exact": true,
+        "legacy_override_and_other_driver_exclusion": true,
+        "no_app_local_dlls": true
+      },
+      "hardfx": {
+        "passed": true,
+        "evidence_sha256": "1fc9e9735683981a9febc2d291f3e59792653cb659a28c6bd34435591e706523",
+        "shader_selections": 15,
+        "device_resets": 15,
+        "core_state_equal": true
+      },
+      "first_run_from_zip": {
+        "passed": true,
+        "evidence_sha256": "429e742829337691398a60ba31f92df0ed07134a7158a6af5d802ed14457fdf7",
+        "licence_notice_answered": [
+          "shown",
+          "ticked",
+          "accepted"
+        ],
+        "first_start_seconds": 53.7,
+        "game_window_seconds": 2.0,
+        "defaults": {
+          "nVidSelect": "1",
+          "nVidDX9HardFX": "14",
+          "nAudSelect": "1",
+          "nAudSegCount": "4",
+          "bVidDX9WinFullscreen": "0",
+          "bSkipStartupCheck": "0"
+        },
+        "board_timing": true,
+        "audio_frames": 1208,
+        "audio_dropped": 0
+      }
+    },
+    "x64": {
+      "boot": {
+        "passed": true,
+        "evidence_sha256": "1b3b3afec9d9ca4a9609925b05f6bd1ecdc0936ed8940b1926d6d333869b7606",
+        "cases": [
+          "default",
+          "explicit",
+          "no_shader",
+          "legacy",
+          "other_driver"
+        ],
+        "frames": 18360,
+        "default_timing_equals_explicit": true,
+        "shader_on_off_core_state_equal": true,
+        "save_load_continuation_exact": true,
+        "legacy_override_and_other_driver_exclusion": true,
+        "no_app_local_dlls": true
+      },
+      "hardfx": {
+        "passed": true,
+        "evidence_sha256": "7da60963d406919acfd933b1efb15dd4947b4cdb41f331cb48be93c8db52a97f",
+        "shader_selections": 15,
+        "device_resets": 15,
+        "core_state_equal": true
+      },
+      "first_run_from_zip": {
+        "passed": true,
+        "evidence_sha256": "ac83773771da4e15cdd64850ced8aeec4102fb52fb84ed25c7e6eb3935679751",
+        "licence_notice_answered": [
+          "shown",
+          "ticked",
+          "accepted"
+        ],
+        "first_start_seconds": 53.8,
+        "game_window_seconds": 2.0,
+        "defaults": {
+          "nVidSelect": "2",
+          "nVidDX9HardFX": "14",
+          "nAudSelect": "1",
+          "nAudSegCount": "4",
+          "bVidDX9WinFullscreen": "0",
+          "bSkipStartupCheck": "0"
+        },
+        "board_timing": true,
+        "audio_frames": 1212,
+        "audio_dropped": 0
+      }
+    }
+  },
+  "source_input_fingerprint": "aeca9f70ad7f29173d4d512524c77229ca79927f9aa8d4817dc0a2ccab25ef5a",
+  "emulator_source_bytes_unchanged": true,
+  "upstream_licence_preserved": true,
+  "shader_runtime_bytes_unchanged": true,
+  "source_changes": [
+    ".gitignore",
+    "LICENSE.md",
+    "makefile.mingw",
+    "README.md",
+    "src/dep/generated/build_details.h"
+  ],
+  "limitations": [
+    "Local Windows validation; GitHub Actions runs only the source checks.",
+    "No online-session or external replay compatibility claim; no GGPO runtime is included.",
+    "No native Linux/macOS binaries and no physical input, display or audio latency measurements.",
+    "On the first start FBNeo builds its game list (about one minute) before the main window opens."
+  ],
+  "published": false,
+  "release": "1.07b"
+}

@@ -1,0 +1,16 @@
+Lola Retro — local Infinite HardFX prototype
+Original author: Zoki (GitHub: zoran123456)
+Copyright (c) 2026 Zoki
+License: MIT. Full notice is included in each preset folder's LICENSE.
+Source: https://github.com/zoran123456/lola-retro
+Pinned commit: 6383ff7357be32c95baf6d31b4a1b1d3cd5c7069
+
+Adaptation: seven original SDR RGB passes translated to HLSL Shader Model 3;
+fixed original preset parameters; explicit arcade timing 8; legacy D3D9
+bindings, texture dimensions, interpolator packing and half-pixel correction.
+Named aliases retain the producing pass's filter/wrap policy. Original uses
+pass zero's sampler. Padded emulator inputs are cropped without resampling.
+The original math and afterglow are retained. No subframe or presenter changes.
+
+This is an isolated preview pack, not a released or installed client option.
+Keep this file and the original MIT notice with any future distribution.

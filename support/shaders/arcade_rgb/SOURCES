@@ -1,0 +1,7 @@
+Native D3D9 adaptation of Retro Crisis GDV-NTSC Arcade RGB release20260927.
+https://github.com/RetroCrisis/Retro-Crisis-GDV-NTSC
+Shader source: https://github.com/libretro/slang-shaders/tree/e1d75632a205c70f14a4cc947c46d5abb7b3f7f1
+Original sources and their author/license notices are in source/. GPLv3 distribution; see COPYING.
+Guest.r and the other original shader authors retain their copyrights.
+Adaptation: fixed preset constants, packed D3D9 varyings, native feedback/LUT/mipmap pass host, 14 October 2026.
+HLSL translation generated using librashader CLI 0.11.2 (not needed at runtime).

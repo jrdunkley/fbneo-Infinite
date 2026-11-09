@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/lrf739146825/FBNeo_Shaders/a13b61b96f282292bc01cd4b605788cbfea3be3d/shaders/crt_retrosl.fx",
+  "sha256": "592e4a6bed989929cbf4fb7ac3c04593f03be5b8a749233ab2613144fe51f3d7",
+  "author": "KillaMaaki; PPSSPP CRT Scanlines, FBNeo HLSL conversion",
+  "branch": "base (original shaders)",
+  "companion_check": "defaults.inc and crt_aperture.fx match the already-shipped assets after CRLF normalization"
+}

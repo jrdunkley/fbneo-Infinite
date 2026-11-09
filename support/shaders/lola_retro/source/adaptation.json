@@ -1,0 +1,120 @@
+{
+  "effects": [
+    {
+      "preset": "amiga-1084s",
+      "shader": "encode",
+      "sha256": "797c18b16e45199eae5107cfef8c927903feca6954b2554ea9bc24fff8f5a51c"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "decode",
+      "sha256": "16fc4010a5262e73020172c1e2b0a3100d8dd3a411ee80f27905c9171593f126"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "glow-h",
+      "sha256": "0cf9718ae5424fd9b91a562ff16f3ca5c968ec56939aaadd8091e1bf6b97d9c6"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "glow-v",
+      "sha256": "c3afcb997f9ca8afe1a00d1fb79e405e8df5f64e7d01189fe242cda066c407b3"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "beam",
+      "sha256": "fd26995d2e2fe7556affe2e9f9f39a2f8771e96b7028de8297c37f14b7629b2d"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "crt",
+      "sha256": "bbfa86ebbf877f6da3860cdd2fab1d6a670a0ecdf1f29bea2ccb631717cf036f"
+    },
+    {
+      "preset": "amiga-1084s",
+      "shader": "present",
+      "sha256": "c093961d5566dbf01ec25ccc498f60dd1d1551b431e35cea50ef51fed1918033"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "encode",
+      "sha256": "34df4a78f0ba24bf4b796660822f8f495b837e30b40239332ea55bf4a136448e"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "decode",
+      "sha256": "d8016ee565daf64392a17f36210b0d692548c4d0cf97eda1fc4727a77f521ff5"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "glow-h",
+      "sha256": "ecf532889341a9583ab77f3d613071db93f00d617faee7d6e0c9d82ff1361f31"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "glow-v",
+      "sha256": "157d47c3479581abe1b1f1e94b25fcca5367231bb9c4caa4598c66186d66a835"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "beam",
+      "sha256": "96be5af4d3e75ff3bd293155d488e63bddce1ddf88572a8098623000ede258a9"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "crt",
+      "sha256": "3f0895919b47906d0b75cb845cff1cd616ab61968dc92adf3fb199f4a338a485"
+    },
+    {
+      "preset": "studio-monitor-rgb",
+      "shader": "present",
+      "sha256": "5069d00c91e2fee0747f12acff994893351eb3cb44cd5d7e8c919287a4defd51"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "encode",
+      "sha256": "0be49200fdd539f72949de44647cb28e1ae8026102c9c54e544e0a7b0445be7b"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "decode",
+      "sha256": "9a48f94d83f07b5eee5de17617d28fe511d13e586f0b45d370ae7a31e2789d2d"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "glow-h",
+      "sha256": "55b2dbff46f7f51108cbe622b4fcdf77655b87f608793edaf5004cf2a4cfc9d9"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "glow-v",
+      "sha256": "8f80df1f29d232a77926ddf8da2779040a3fa44d40dd12f2e1e7c83c44500c1b"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "beam",
+      "sha256": "3139542aef1fab993046616ac2eb150c4b5719d83f57274ce9192d9b53b79d8d"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "crt",
+      "sha256": "0286bff95295c5ac38d15a82c54a3a444e44a290cec577ca60e48949c76f3fd8"
+    },
+    {
+      "preset": "consumer-tv-scart-rgb",
+      "shader": "present",
+      "sha256": "fa6bd4134f03292e5779140d7e3e30efda4709c992961d77233ae6fbdded73e6"
+    }
+  ],
+  "translator_sha256": "842811bcb59af40a563e4d69853c2b029e5b38cf4615f84ae193962cdae4829a",
+  "helpers_sha256": "99ab6d01e840751c51a3787ad995de1403dbc39108ab5762ae9942b238529235",
+  "changes": [
+    "Fixed upstream RGB preset constants",
+    "Explicit 15 kHz arcade timing 8",
+    "Legacy FX declarations and packed interpolators",
+    "Explicit level-zero reads for nonmipmapped textures",
+    "Uniform-derived flat varyings use ordinary constant interpolation on SM3",
+    "Host-supplied texture dimensions and D3D9 half-pixel correction"
+  ],
+  "generator_sha256": "902e81f6eb9957dac23b744eb516b4b12da7ea0cd79873d73a22744878530acd"
+}

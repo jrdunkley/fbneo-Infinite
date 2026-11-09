@@ -1,0 +1,82 @@
+[
+  {
+    "shader": "crt/shaders/guest/advanced/afterglow0.slang",
+    "path": "afterglow0.fx",
+    "sha256": "0dd34ebe996d8c287b1451c99ad75f355cc211ddfbea9e09f2995591bd006874"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/avg-lum-ntsc.slang",
+    "path": "avg-lum-ntsc.fx",
+    "sha256": "081de75c31f716ef2389ee06bca0f01b6023905da55e32dac6f9ac48223011e4"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/bloom_vertical.slang",
+    "path": "bloom_vertical.fx",
+    "sha256": "dabeba9fcb73d8ea16bfaf4ca5cfd6256793a15103645784a7b577502e77a74f"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/crt-guest-advanced-ntsc-pass1.slang",
+    "path": "crt-guest-advanced-ntsc-pass1.fx",
+    "sha256": "2a1d6678e9548fdceadf10b6b46e8493d194c3921e8ec11b000251dbbdde3195"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/crt-guest-advanced-ntsc-pass2.slang",
+    "path": "crt-guest-advanced-ntsc-pass2.fx",
+    "sha256": "e3d2e2ccc9eb161a307aa70a9bcc19f481bce203f92d1e814bf34ad4ac39db4d"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/custom-fast-sharpen.slang",
+    "path": "custom-fast-sharpen.fx",
+    "sha256": "804b13f6bb6afd3217780587ddc714b7811a5a074abc67d996cd6d3eebf4ea48"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/deconvergence-ntsc.slang",
+    "path": "deconvergence-ntsc.fx",
+    "sha256": "a3337bc89fac2460520158c8fca6109babef9ba540070f762b2a3d3b974d0ec2"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/gaussian_vertical.slang",
+    "path": "gaussian_vertical.fx",
+    "sha256": "d2f5aed76d2ee09914749784dea1e1e665b6d3a902c667a47ae5cccdf5b3a22d"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/linearize-ntsc.slang",
+    "path": "linearize-ntsc.fx",
+    "sha256": "46a54eb0b0f82892cbb49fa61a669a0fa6acdc87c56021fc53f038b9721c551b"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/ntsc/ntsc-pass1.slang",
+    "path": "ntsc-pass1.fx",
+    "sha256": "a9262ed2c4698860084f557249168d161309b6d9cb00542274a6c609aa19524c"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/ntsc/ntsc-pass2.slang",
+    "path": "ntsc-pass2.fx",
+    "sha256": "ef7b2517df267f47ef0113ef1f42ac639130759f247050afcba5fbade3ce37db"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/ntsc/ntsc-pass3.slang",
+    "path": "ntsc-pass3.fx",
+    "sha256": "7c14c73b3a26c9a66be9f061934a98668b2be3a38b110ac03cb47a264daded3c"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/pre-shaders-afterglow.slang",
+    "path": "pre-shaders-afterglow.fx",
+    "sha256": "1c2e957b1f7ef04b066300d67d055a5f86960f974299a7466c0a4f37cfba1c4e"
+  },
+  {
+    "shader": "crt/shaders/guest/advanced/stock.slang",
+    "path": "stock.fx",
+    "sha256": "6f9283a2852a939091e288480bf69ae3b664243ca2e6b4e7105100ca20e3efd2"
+  },
+  {
+    "shader": "crt/shaders/guest/hd/bloom_horizontal.slang",
+    "path": "bloom_horizontal.fx",
+    "sha256": "4a2ee3431933f7dcb85219829fe5fbbf54921427ac290483e11323435c6fded4"
+  },
+  {
+    "shader": "crt/shaders/guest/hd/gaussian_horizontal.slang",
+    "path": "gaussian_horizontal.fx",
+    "sha256": "11df10bc70fa4a2c8446eacff026cf69689a67d71abbc32ee6e3d85c5e2a6a93"
+  }
+]

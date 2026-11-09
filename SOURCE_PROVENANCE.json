@@ -1,0 +1,40 @@
+{
+  "snapshot": "2026-11-09",
+  "base_project": "https://github.com/finalburnneo/FBNeo",
+  "upstream_base_recorded_by_original_import": "dea544b15fe4ade4076a6547403ff667ef0d9d99",
+  "fightcade_reference": "https://github.com/fightcadeorg/fightcade-fbneo/tree/c95950140e2424643a0bb589dc444f0defe03155",
+  "provenance_note": "Source snapshot of the Infinite emulator release tree. The upstream import identifiers are historical references; the per-file source manifest identifies this distribution. No git ancestry is claimed for the exported snapshot.",
+  "previous_release_executable_sha256": {
+    "x86": "93642b7a506d933c182540dd3fb9f94b8417954828a9bf1a9bccfa27c632ba6d",
+    "x64": "6ac64e4129e7a3d4b727826f66ea9c9d1fd87be4b6748fab5c5b3d277b4dc358"
+  },
+  "source_input_fingerprint": "5cf3198741b993c9bef53ecf41c0e997cc4ff31dc9487587cae41130ec50fedd",
+  "standalone_changes": [
+    "Portable response-file link and build wrapper with refreshed build metadata",
+    "Documentation, local packaging, source checks and non-publishing CI",
+    "Existing shader tree, with one metadata-only absolute-path normalization"
+  ],
+  "emulator_implementation_unchanged": true,
+  "rom_payloads_included": false,
+  "closed_runtime_included": false,
+  "release": "1.07b",
+  "infinite_release": {
+    "update": "Infinite 1.07b (published 2026-11-09)",
+    "emulator_source": "identical source files (per-file SHA-256 of the release build report)",
+    "shipped_executables": {
+      "x86": {
+        "base_sha256": "93642b7a506d933c182540dd3fb9f94b8417954828a9bf1a9bccfa27c632ba6d",
+        "shipped_sha256": "10e36259116fef5688dc6b1d56075c4998d755a438e279c035c3019cecefb2be",
+        "changed_4byte_fields": 14,
+        "bytes_changed": 56
+      },
+      "x64": {
+        "base_sha256": "6ac64e4129e7a3d4b727826f66ea9c9d1fd87be4b6748fab5c5b3d277b4dc358",
+        "shipped_sha256": "be964bd11e743b6bac456b347f5de75a76f371478e4cabb57537590d1dbe8a9e",
+        "changed_4byte_fields": 14,
+        "bytes_changed": 56
+      }
+    },
+    "difference": "The shipped executables differ from their build only in 14 ROM CRC fields that match Infinite's modified game data; this release keeps the stock ROM definitions."
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "commit": "6383ff7357be32c95baf6d31b4a1b1d3cd5c7069",
+  "license": "MIT License\n\nCopyright (c) 2026 Zoki\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/LICENSE",
+      "sha256": "35a17ed7de836c4706e8fc876d15a41fd4b327f32431b60bd48a0d3df335228b",
+      "bytes": 1061
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/README.md",
+      "sha256": "25333474e82e301ac337ca6db1676b4098338e914476fa8ad5079facc73d22c9",
+      "bytes": 14373
+    },
+    {
+      "path": "shaders/lola-retro/LICENSE",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/LICENSE",
+      "sha256": "35a17ed7de836c4706e8fc876d15a41fd4b327f32431b60bd48a0d3df335228b",
+      "bytes": 1061
+    },
+    {
+      "path": "shaders/lola-retro/README.md",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/README.md",
+      "sha256": "fab41f8c1d0aa26782b9d298945abad63c425f0b0fc8a8f6d8ccea91f39b1460",
+      "bytes": 18888
+    },
+    {
+      "path": "shaders/lola-retro/RECOMMENDED-CORES.md",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/RECOMMENDED-CORES.md",
+      "sha256": "1ea41488f75e2f7807d35f27cb41019766f8816b934e205628b5f37e1ce793cd",
+      "bytes": 6031
+    },
+    {
+      "path": "shaders/lola-retro/curved/amiga-1084s.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/amiga-1084s.slangp",
+      "sha256": "7a197b1087f395c7411f69e2401fc4f83d61231bf6d84dab19c9cd6dcaf7e97e",
+      "bytes": 2334
+    },
+    {
+      "path": "shaders/lola-retro/curved/consumer-tv-composite.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/consumer-tv-composite.slangp",
+      "sha256": "4af10cf2081ae5294101eb22f51c3e344bcb48665f46a2918b8519472c703eb1",
+      "bytes": 2340
+    },
+    {
+      "path": "shaders/lola-retro/curved/consumer-tv-scart-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/consumer-tv-scart-rgb.slangp",
+      "sha256": "840462211985b10534351c1796152d6a2bdb441406e370ac7531ecebc02074e0",
+      "bytes": 2340
+    },
+    {
+      "path": "shaders/lola-retro/curved/crt-projector.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/crt-projector.slangp",
+      "sha256": "d28ffe0801372335679c1a8a0c8b0af029dd8a6ecffd44c6768e8cdcc89271b1",
+      "bytes": 2322
+    },
+    {
+      "path": "shaders/lola-retro/curved/old-tv-rf.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/old-tv-rf.slangp",
+      "sha256": "b242f402106486679fd86b0d28c377ef8d4b5dbc1cb85dc2307fc94d8d6acded",
+      "bytes": 2328
+    },
+    {
+      "path": "shaders/lola-retro/curved/pc-monitor-vga-extreme.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/pc-monitor-vga-extreme.slangp",
+      "sha256": "20682aad20be0f160ec7b9f2c9f8758dd9829396c2610d99a9682789daa582bf",
+      "bytes": 2344
+    },
+    {
+      "path": "shaders/lola-retro/curved/pc-monitor-vga-good.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/pc-monitor-vga-good.slangp",
+      "sha256": "20a425f823bbf432e34aa4cf6fc408cc2a8b86878d207e64262f129c9d8cb402",
+      "bytes": 2340
+    },
+    {
+      "path": "shaders/lola-retro/curved/pc-monitor-vga-premium-plus.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/pc-monitor-vga-premium-plus.slangp",
+      "sha256": "0f6e12d7e98d440de39d3aed70cd577c3443892bc6f536db3f20f9e9af0e7709",
+      "bytes": 2349
+    },
+    {
+      "path": "shaders/lola-retro/curved/pc-monitor-vga-premium.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/pc-monitor-vga-premium.slangp",
+      "sha256": "628d1aea54103a059bba2838fbb7b1e51f7c531a94e1d46462cb38da2d55e872",
+      "bytes": 2342
+    },
+    {
+      "path": "shaders/lola-retro/curved/pc-monitor-vga.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/pc-monitor-vga.slangp",
+      "sha256": "fc38a6682eb44220f79163e7780ec836bee30cd6108be11c4b29265cd846c85f",
+      "bytes": 2334
+    },
+    {
+      "path": "shaders/lola-retro/curved/studio-monitor-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/studio-monitor-rgb.slangp",
+      "sha256": "d87711874a12125aca33cc4831e1111aae667b396c98ce14a47486c7684d1d39",
+      "bytes": 2326
+    },
+    {
+      "path": "shaders/lola-retro/curved/trinitron-s-video.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/curved/trinitron-s-video.slangp",
+      "sha256": "b520cab6894c1d296d01f32117cc8395178341443014b1a0c51b738857ac39f7",
+      "bytes": 2333
+    },
+    {
+      "path": "shaders/lola-retro/flat/amiga-1084s.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/amiga-1084s.slangp",
+      "sha256": "7eb090bf7040c275fe7fd11e55c362c4c4cbd7399de53d7bb0bc1f1507745619",
+      "bytes": 2322
+    },
+    {
+      "path": "shaders/lola-retro/flat/consumer-tv-composite.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/consumer-tv-composite.slangp",
+      "sha256": "eed2c3fe4eeb5ca95e5d42476f1fd4f5f54e6810b17278b0fc328e22eea493c5",
+      "bytes": 2327
+    },
+    {
+      "path": "shaders/lola-retro/flat/consumer-tv-scart-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/consumer-tv-scart-rgb.slangp",
+      "sha256": "3cfd641083148aae3b13a16517a4e111df5673cdf51f81acd18dd4520c6a93f1",
+      "bytes": 2327
+    },
+    {
+      "path": "shaders/lola-retro/flat/crt-projector.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/crt-projector.slangp",
+      "sha256": "9b1e0fad8af2f3daf2c876da6a343e2717fdc352a02c968553537754339b6ed7",
+      "bytes": 2316
+    },
+    {
+      "path": "shaders/lola-retro/flat/old-tv-rf.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/old-tv-rf.slangp",
+      "sha256": "52519349a8156f13e6008f2763d03d9aa1ea052384cf71131b9e74dd20118089",
+      "bytes": 2316
+    },
+    {
+      "path": "shaders/lola-retro/flat/pc-monitor-vga-extreme.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/pc-monitor-vga-extreme.slangp",
+      "sha256": "9331d2faaaadad442a625076408039dd53ab296f3762d18775cd1bda6dda742f",
+      "bytes": 2330
+    },
+    {
+      "path": "shaders/lola-retro/flat/pc-monitor-vga-good.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/pc-monitor-vga-good.slangp",
+      "sha256": "e0448869e63cc7c8d0f9b461b8aaa17aaf4816def63faba10b7e9af1a99ad023",
+      "bytes": 2326
+    },
+    {
+      "path": "shaders/lola-retro/flat/pc-monitor-vga-premium-plus.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/pc-monitor-vga-premium-plus.slangp",
+      "sha256": "e1420353b84f25b19b888f1d8d7cf21513d06d686c7c475564fdf8448882080d",
+      "bytes": 2335
+    },
+    {
+      "path": "shaders/lola-retro/flat/pc-monitor-vga-premium.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/pc-monitor-vga-premium.slangp",
+      "sha256": "4626b65d6396b777b207289a9c50df04d961356b5a864791c10d9aee8d62122e",
+      "bytes": 2328
+    },
+    {
+      "path": "shaders/lola-retro/flat/pc-monitor-vga.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/pc-monitor-vga.slangp",
+      "sha256": "d04473fd23e36efab991e35192b6fd58314a3a0d5f136d40f7fd52b02647d092",
+      "bytes": 2320
+    },
+    {
+      "path": "shaders/lola-retro/flat/studio-monitor-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/studio-monitor-rgb.slangp",
+      "sha256": "0a8043d0a12dd66ef48fdaecce9f5e659452d7a60965f2e3d3cef89fc96ec94e",
+      "bytes": 2314
+    },
+    {
+      "path": "shaders/lola-retro/flat/trinitron-s-video.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/flat/trinitron-s-video.slangp",
+      "sha256": "1be610b4d27bc858478bad7be7d24523ac903c32aed1dd5c8899b0af21832195",
+      "bytes": 2324
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/amiga-1084s.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/amiga-1084s.slangp",
+      "sha256": "fc446592cf9ce5dd900c4499405dc9e65b04c1bcc3f117bd7b86c354430eeb6a",
+      "bytes": 2397
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/consumer-tv-composite.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/consumer-tv-composite.slangp",
+      "sha256": "eebae86f277957e8bccdf3afa96061610e857808c3d76978483bd5ef8451b152",
+      "bytes": 2403
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/consumer-tv-scart-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/consumer-tv-scart-rgb.slangp",
+      "sha256": "9d640da6e5e8fb5527a4859508a18b5319dc1e198cb97b746bcde6dfc5768c7a",
+      "bytes": 2403
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/crt-projector.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/crt-projector.slangp",
+      "sha256": "e1415a6a85c340b8c2cd3e22801223e35e5d00cfc788ef74c2b1a9ce9c60616b",
+      "bytes": 2385
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/old-tv-rf.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/old-tv-rf.slangp",
+      "sha256": "a61c1e88375082fffb8241d03d05f4b945a47b106f97a09e6824d96fba668e2a",
+      "bytes": 2391
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/pc-monitor-vga-extreme.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/pc-monitor-vga-extreme.slangp",
+      "sha256": "b003205379c3bb7273ae471635a04b48a28e7277905745082a676959fba5abd1",
+      "bytes": 2407
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/pc-monitor-vga-good.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/pc-monitor-vga-good.slangp",
+      "sha256": "61d4e06870748bd7e22d164ec5069b55af172b080725f2d4804c8ced953a12bd",
+      "bytes": 2403
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/pc-monitor-vga-premium-plus.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/pc-monitor-vga-premium-plus.slangp",
+      "sha256": "e2ed4d54c54d14b18fa1d5dc8010aad9af45be075f2caa981459ed9fdc64c3b3",
+      "bytes": 2412
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/pc-monitor-vga-premium.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/pc-monitor-vga-premium.slangp",
+      "sha256": "ec0f981a1549dbc96f7f7099ed8cca13c5c77eeebba6e88ca4f42a1068df0789",
+      "bytes": 2405
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/pc-monitor-vga.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/pc-monitor-vga.slangp",
+      "sha256": "19fcf7f31d1cfacbb38dc4aea1583e7bf685563342fb4352dbff0f36e475f31b",
+      "bytes": 2397
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/studio-monitor-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/studio-monitor-rgb.slangp",
+      "sha256": "d6a76a1594cd1fa34aab8db8d03f4701ffbd69f58dcd4790380aed4fb8f6faab",
+      "bytes": 2389
+    },
+    {
+      "path": "shaders/lola-retro/hdr/curved/trinitron-s-video.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/curved/trinitron-s-video.slangp",
+      "sha256": "95d5d23987e165e8a5179dc50fd8b840086e22bdabab80b48853ed067af79d55",
+      "bytes": 2396
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/amiga-1084s.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/amiga-1084s.slangp",
+      "sha256": "c6ef6112929c886f9efdd52e70658fd62d2ef31d0707eac186dfa018f93b36dc",
+      "bytes": 2385
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/consumer-tv-composite.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/consumer-tv-composite.slangp",
+      "sha256": "98162a31f09f6238ec1a24fd6764c24cce9e53b48e0e21866d9b031974b35025",
+      "bytes": 2390
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/consumer-tv-scart-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/consumer-tv-scart-rgb.slangp",
+      "sha256": "76a8b28c854cd3331ccb2188996222a026b15127aa6e4bb1573485154a89c64c",
+      "bytes": 2390
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/crt-projector.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/crt-projector.slangp",
+      "sha256": "d8c4682c8003320a8b30acf9c264b00932210c55e8477c6fd3b8de8831f93349",
+      "bytes": 2379
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/old-tv-rf.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/old-tv-rf.slangp",
+      "sha256": "03e6d2507d6bef62afce2626972ded40d4d489ab75b47bcc1a8cd97d02aa42e1",
+      "bytes": 2379
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/pc-monitor-vga-extreme.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/pc-monitor-vga-extreme.slangp",
+      "sha256": "92db1690bef4665282e61b8061317d5bd427d8f11b7ef40ce2f174b03635048b",
+      "bytes": 2393
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/pc-monitor-vga-good.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/pc-monitor-vga-good.slangp",
+      "sha256": "a5a64a887728eae638f1915db3d8b5121c045c0fbc19311ea8a8e5fd4a69d5e7",
+      "bytes": 2389
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/pc-monitor-vga-premium-plus.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/pc-monitor-vga-premium-plus.slangp",
+      "sha256": "5e33eb470df3e0c902c7acb6f173fe5aa4dcd25c6cafddb13189ea7322e53ca7",
+      "bytes": 2398
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/pc-monitor-vga-premium.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/pc-monitor-vga-premium.slangp",
+      "sha256": "0b7ba8fde85bffc0b7021de0526d730d5bc4256a12d16003975bb1a26684eb9b",
+      "bytes": 2391
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/pc-monitor-vga.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/pc-monitor-vga.slangp",
+      "sha256": "0d1ff8addd9389f73d2e12e2d584b0398075a75a3546c9fe12261d48faeb7573",
+      "bytes": 2383
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/studio-monitor-rgb.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/studio-monitor-rgb.slangp",
+      "sha256": "c6cbe35f5f12ac199cf6271d8580a0517d646b9f75041b6c7fa003e73bd7198f",
+      "bytes": 2377
+    },
+    {
+      "path": "shaders/lola-retro/hdr/flat/trinitron-s-video.slangp",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/hdr/flat/trinitron-s-video.slangp",
+      "sha256": "9ae5c44ccd16c19dcf67225d9507705f19ac7c6e8c867f02e1880601daf94454",
+      "bytes": 2387
+    },
+    {
+      "path": "shaders/lola-retro/shaders/beam.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/beam.slang",
+      "sha256": "2e72369ca95148a63fee40b5bf4f7ade7a6e731af24276a5fccbbeaf8b00472a",
+      "bytes": 7752
+    },
+    {
+      "path": "shaders/lola-retro/shaders/common.inc",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/common.inc",
+      "sha256": "1f8b7e0cfb33439531911c7ed8f5bfa3fcdc6fa16db9a6f0003610b57cc65026",
+      "bytes": 18578
+    },
+    {
+      "path": "shaders/lola-retro/shaders/crt-hdr.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/crt-hdr.slang",
+      "sha256": "cce21e93988a213fb46b251e80e4a5b4d11da0f1d746e897cedc03d6599f2775",
+      "bytes": 139
+    },
+    {
+      "path": "shaders/lola-retro/shaders/crt.inc",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/crt.inc",
+      "sha256": "98028942a0158db11e1a5534f3cfdd42a14b9e3a2e815f8487c639b5617aff69",
+      "bytes": 13361
+    },
+    {
+      "path": "shaders/lola-retro/shaders/crt.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/crt.slang",
+      "sha256": "32a4c06f7babdf0941d0b5f1a93341ce3f2ba6e6d8bacb661dcdf714272a400d",
+      "bytes": 105
+    },
+    {
+      "path": "shaders/lola-retro/shaders/decode.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/decode.slang",
+      "sha256": "acc3401c286018159edca66b8f705be9116f0ef8af8396e0f20bc8a5212a5027",
+      "bytes": 8968
+    },
+    {
+      "path": "shaders/lola-retro/shaders/encode.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/encode.slang",
+      "sha256": "a8df542e34a6bf7f268d02668c0c32f2d5e4b854f539be9f64457f0b24e222b8",
+      "bytes": 5468
+    },
+    {
+      "path": "shaders/lola-retro/shaders/fields.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/fields.slang",
+      "sha256": "6c36dfbe77f3033edf0e932c7fd2206d1df48d1f1dfe855829ed8c5e84b90543",
+      "bytes": 2183
+    },
+    {
+      "path": "shaders/lola-retro/shaders/glow-h.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/glow-h.slang",
+      "sha256": "5da0151f474cb4cfeac48e00b58704ac7cc73e8107a205a25a4182c88e651f31",
+      "bytes": 1731
+    },
+    {
+      "path": "shaders/lola-retro/shaders/glow-v.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/glow-v.slang",
+      "sha256": "9a7dd9ce7618c8cd43bd169d78be875ac69bb2acd8dce46e7fc8f6bfbec30041",
+      "bytes": 1062
+    },
+    {
+      "path": "shaders/lola-retro/shaders/hdr.inc",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/hdr.inc",
+      "sha256": "783159343e8e950c25e351ccd67be6a0d0fee1d3252293947958cffa74b49c40",
+      "bytes": 495
+    },
+    {
+      "path": "shaders/lola-retro/shaders/present-hdr.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/present-hdr.slang",
+      "sha256": "b5848821d4c9753ab73cc5b9cf8128d0aade7a8af409a55bc3b9de0ae780cf03",
+      "bytes": 1843
+    },
+    {
+      "path": "shaders/lola-retro/shaders/present.slang",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/shaders/lola-retro/shaders/present.slang",
+      "sha256": "13b5d230e8bcb5181af887acb7424ce433132d51d4f6746b96aa9b4229cdf18a",
+      "bytes": 736
+    },
+    {
+      "path": "tools/check_shaders.py",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/tools/check_shaders.py",
+      "sha256": "8380897985ce445b91de15ffc28381d723cd122fb66ed5a159c2e6d523f9878f",
+      "bytes": 4105
+    },
+    {
+      "path": "tools/make_glsl.py",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/tools/make_glsl.py",
+      "sha256": "1fe1ed9f5313b450d322c3f50b39779c955e3d9bc2008523720ba7ed69672495",
+      "bytes": 27336
+    },
+    {
+      "path": "tools/make_presets.py",
+      "url": "https://raw.githubusercontent.com/zoran123456/lola-retro/6383ff7357be32c95baf6d31b4a1b1d3cd5c7069/tools/make_presets.py",
+      "sha256": "5cceea96bfd97f886f647d0aea86ab2069771bf9beb3246f8c65aa282f328dc2",
+      "bytes": 8844
+    }
+  ]
+}

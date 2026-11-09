@@ -1,0 +1,39 @@
+CRT LOLA - APPROVED EFFECTS FOR PATCH 1.05
+
+Default: CRT Lola - Studio Monitor RGB (HardFX 12).
+
+Video > Blitter options > HardFX algorithm:
+  CRT Lola - Studio Monitor
+  CRT Lola - Consumer TV RGB
+  CRT Lola - 1084S RGB
+
+LATENCY AND MOTION
+
+The corrected seven-pass chain processes the current game frame without an
+intentional extra-frame queue. A production GPU readback test verifies that a
+new bright input appears in that same frame on both alternating buffers, with
+the first bright frame exactly matching the steady bright image. This test
+does not measure physical input-to-display latency or the presentation queue.
+
+The original afterglow retains up to 4% (Studio), 8% (Consumer) or 5% (1084S)
+of the previous frame's linear brightness. This can leave visible fading trails.
+It does not hold back the current bright image; dark transitions fade by design.
+
+Static prototype rendering on an NVIDIA GeForce RTX 4070 measured approximately
+0.51-0.54 ms/frame for the three looks at 1440x1080; Studio measured 0.41 ms at
+960x720 and 1.11 ms at 2880x2160. These figures include a final GPU readback and
+are rendering-cost observations, not measured added input/display latency.
+Slower GPUs and missed presentation deadlines can cause additional delay.
+
+Matched physical input-to-picture A/B testing and representative GPU/frame-
+pacing measurements remain required before release. An additional whole frame
+is a release blocker. No zero-latency claim is made from these software tests.
+
+CREDITS
+
+Lola Retro by Zoki (zoran123456), Copyright (c) 2026 Zoki, MIT license.
+https://github.com/zoran123456/lola-retro
+Pinned source: 6383ff7357be32c95baf6d31b4a1b1d3cd5c7069
+Original source, full MIT notices and adaptation details are included under
+support/shaders/lola_retro. The native D3D9 adaptation retains all seven SDR
+RGB passes. Shader sources and assets must accompany future client packaging.
